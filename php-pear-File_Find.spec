@@ -25,7 +25,7 @@ named File_Find, is a directory searcher, which handles globbing,
 recursive directory searching, as well as a slew of other cool
 features.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa File_Find, stworzona w celu zast±pienia perlowej klasy
