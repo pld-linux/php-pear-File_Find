@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.php
 %define         _class          File
 %define         _subclass       Find
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - A Class the facillitates the search of filesystems
 Summary(pl):	%{_pearname} - Klasa z narzêdziami do przeszukiwania systemu plików
 Name:		php-pear-%{_pearname}
-Version:	0.1
-Release:	4
+Version:	0.2.0
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -22,10 +23,14 @@ named File_Find, is a directory searcher, which handles globbing,
 recursive directory searching, as well as a slew of other cool
 features.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Klasa File_Find, stworzona w celu zast±pienia perlowej klasy
 File_Find, s³u¿y do przeszukiwania katalogów z obs³ug± masek,
 przeszukiwania rekurencyjnego oraz wielu innych mo¿liwo¶ci.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
@@ -41,5 +46,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc %{_pearname}-%{version}/docs/*
 %{php_pear_dir}/%{_class}/*.php
