@@ -10,18 +10,21 @@ Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-BuildRequires:	rpm-php-pearprov
 URL:		http://pear.php.net/
+BuildRequires:	rpm-php-pearprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 File_Find, created as a replacement for its Perl counterpart, also
-named File_Find, is a directory searcher, which handles, globbing,
+named File_Find, is a directory searcher, which handles globbing,
 recursive directory searching, as well as a slew of other cool
 features.
 
 %description -l pl
+Klasa File_Find, stworzona w celu zast±pienia perlowej klasy
+File_Find, s³u¿y do przeszukiwania katalogów z obs³ug± masek,
+przeszukiwania rekurencyjnego oraz wielu innych mo¿liwo¶ci.
 
 %prep
 %setup -q -c
