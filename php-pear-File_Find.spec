@@ -2,8 +2,8 @@
 %define         _class          File
 %define         _subclass       Find
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - A Class the facillitates the search of filesystems
-Summary(pl):	%{_class}_%{_subclass} - Klasa z narzêdziami do przeszukiwania systemu plików
+Summary:	%{_pearname} - A Class the facillitates the search of filesystems
+Summary(pl):	%{_pearname} - Klasa z narzêdziami do przeszukiwania systemu plików
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	3
