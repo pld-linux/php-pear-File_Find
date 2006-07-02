@@ -7,13 +7,13 @@
 Summary:	%{_pearname} - a class that facillitates the search of filesystems
 Summary(pl):	%{_pearname} - klasa z narzêdziami do przeszukiwania systemu plików
 Name:		php-pear-%{_pearname}
-Version:	1.2.2
+Version:	1.3.0
 Release:	1
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	1cf828d427a9af79ef036573d3049779
+# Source0-md5:	f3745971cd0d7442160a050255d5e17f
 URL:		http://pear.php.net/package/File_Find/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
