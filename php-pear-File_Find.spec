@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - a class that facillitates the search of filesystems
-Summary(pl):	%{_pearname} - klasa z narzÍdziami do przeszukiwania systemu plikÛw
+Summary(pl.UTF-8):   %{_pearname} - klasa z narzƒôdziami do przeszukiwania systemu plik√≥w
 Name:		php-pear-%{_pearname}
 Version:	1.3.0
 Release:	1
@@ -30,16 +30,16 @@ features.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa File_Find, stworzona w celu zast±pienia perlowej klasy
-File_Find, s≥uøy do przeszukiwania katalogÛw z obs≥ug± masek,
-przeszukiwania rekurencyjnego oraz wielu innych moøliwo∂ci.
+%description -l pl.UTF-8
+Klasa File_Find, stworzona w celu zastƒÖpienia perlowej klasy
+File_Find, s≈Çu≈ºy do przeszukiwania katalog√≥w z obs≈ÇugƒÖ masek,
+przeszukiwania rekurencyjnego oraz wielu innych mo≈ºliwo≈õci.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -48,7 +48,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
