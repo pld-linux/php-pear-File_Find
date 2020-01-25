@@ -2,7 +2,6 @@
 %define		_subclass	Find
 %define		_status		stable
 %define		_pearname	File_Find
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - a class that facillitates the search of filesystems
 Summary(pl.UTF-8):	%{_pearname} - klasa z narzędziami do przeszukiwania systemu plików
 Name:		php-pear-%{_pearname}
